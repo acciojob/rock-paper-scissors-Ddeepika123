@@ -7,6 +7,29 @@
 </head>
 
 <body>
+	<h1>Rock Paper Scissors</h1>
+	
+	<!-- Number of turns --> 
+	<input type="number" data-ns-test="game-number" id="game-number" min="1" placeholder="Enter number of turns" > 
+	
+	<!-- Play button --> 
+	<button data-ns-test="play-game" id="play-game"> Play Game </button>
+	<hr>
+	
+	<!-- Game information -->
+	<p> Rounds Left: <span data-ns-test="rounds-left" id="rounds-left">0</span> </p>
+	<p> User Points: <span data-ns-test="user-points" id="user-points">0</span> </p>
+	<p> Computer Points: <span data-ns-test="computer-points" id="computer-points">0</span> </p> 
+	<hr> 
+	<h2>Choose your option</h2>
+	<button class="choice" data-ns-test="rock" id="rock"> ROCK </button> 
+	<button class="choice" data-ns-test="paper" id="paper"> PAPER </button> 
+	<button class="choice" data-ns-test="scissors" id="scissors"> SCISSORS </button> 
+	<hr> 
+	<p> Computer Choose: <span data-ns-test="computer-choose" id="computer-choose"> - </span> </p> 
+	<p> Round Result: <span data-ns-test="round-result" id="round-result"> - </span> </p> 
+	<h2> Game Result: <span data-ns-test="game-result" id="game-result"> - </span>
+	</h2>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
